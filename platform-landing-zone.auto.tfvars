@@ -317,6 +317,7 @@ hub_virtual_networks = {
       management_subnet_address_prefix = "$${primary_firewall_management_subnet_address_prefix}"
       name                             = "$${primary_firewall_name}"
       sku_tier                         = "$${primary_firewall_sku_tier}"
+      zones                            = ["1", "2"]
       default_ip_configuration = {
         public_ip_config = {
           name = "$${primary_firewall_public_ip_name}"
